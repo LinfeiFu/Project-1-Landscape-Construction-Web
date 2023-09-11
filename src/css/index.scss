@@ -126,7 +126,7 @@ $font-color:#fff;
             align-items: center;
             width: 33%;
             img {
-                width: 20vw;
+                width: 95%;
                 padding: 0 20px;
             }
             .description {
@@ -171,8 +171,7 @@ $font-color:#fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+
     .content{
         width: 100%;
         height: 100%;
@@ -190,7 +189,7 @@ $font-color:#fff;
             background-color: $secondary-color;
             .story_first-section{
                 width: 100%;
-                padding: 50px 400px;
+                padding: 50px 18%;
             }
             hr {
                 background-color: $primary-color;
@@ -213,7 +212,7 @@ $font-color:#fff;
                     margin:0 30px;
                     i {
                         font-size: 5rem;
-                        color: $primary-color;
+                        color: #606c38;
                     }
                     p {
                         margin-top: 30px;
@@ -269,7 +268,7 @@ $font-color:#fff;
     .service-container {
         width: 100%;
         color: $font-color;
-        background-color: $primary-color;
+        background-color: #606c38;
         text-align: center;
         padding: 30px;
         .slogan {
@@ -282,7 +281,7 @@ $font-color:#fff;
             img {
                 display: inline-block;
                 margin: 20px;
-                width: 20vw;
+                width: 25rem;
             }
         }
         p {
@@ -345,7 +344,7 @@ $font-color:#fff;
         }
         .form-container {            
             width: 50%;
-            margin: 30px;
+            margin: 30px auto 100px;
             padding: 50px;
             background-color: $background-color;
             .quote {
@@ -364,6 +363,7 @@ $font-color:#fff;
                     }
                     &::placeholder {
                         color: $btn-color;
+                        opacity: 0.7;
                     }
                 }
                 .text {
@@ -380,6 +380,7 @@ $font-color:#fff;
                     }
                     &::placeholder {
                         color: $btn-color;
+                        opacity: 0.7;
                     }
                 }
                 .redirect-btn {
@@ -391,6 +392,13 @@ $font-color:#fff;
     }
 }
 
+.footer-container {
+    background-color: $primary-color;
+    color:$font-color;
+    padding: 30px 100px;
+    .footer-container_left {
+    }
+}
 
 
 
