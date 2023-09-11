@@ -29,7 +29,7 @@
   width: 150px;
   height: 100px;
   content: "";
-  background: url("../../images/WechatIMG4.jpg");
+  background: url("../../images/WechatIMG4-PhotoRoom.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -140,7 +140,7 @@
 }
 
 .first-section .photos .photo .description {
-  color: #343a40;
+  color: #000;
   width: 80%;
 }
 
@@ -436,5 +436,68 @@
 .footer-container {
   background-color: #283618;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 30px 100px;
+}
+
+.footer-container .footer-container_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container .footer-container_top img {
+  width: 10rem;
+  margin-right: 20px;
+}
+
+.footer-container .footer-container_bottom {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.footer-container .footer-container_bottom h3 {
+  margin-bottom: 10px;
+}
+
+.footer-container .footer-container_bottom .footer-container_bottom_left {
+  flex: 3;
+}
+
+.footer-container .footer-container_bottom .footer-container_bottom_left p {
+  width: 70%;
+  margin: auto;
+}
+
+.footer-container .footer-container_bottom .footer-container_bottom_left .copyright {
+  margin-top: 40px;
+  font-size: small;
+}
+
+.footer-container .footer-container_bottom .footer-container_bottom_middle {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-container .footer-container_bottom .footer-container_bottom_right {
+  flex: 1;
+}
+
+.footer-container .footer-container_bottom .footer-container_bottom_right i {
+  font-size: 2rem;
+  color: #fefae0;
+  margin: 10px 5px;
+  transition: color 0.3s ease;
+}
+
+.footer-container .footer-container_bottom .footer-container_bottom_right i:hover {
+  color: #bc6c25;
+}
+
+.footer-container .footer-container_bottom ul {
+  list-style: none;
 }
